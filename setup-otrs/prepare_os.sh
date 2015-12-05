@@ -18,6 +18,7 @@ yum install -y httpd mod_ssl
 rpm -ivh \
  http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm && \
  yum install -y perl-core perl-Crypt-SSLeay mod_perl procmail mailx \
+        perl-Archive-Zip \
         perl-AppConfig \
         perl-Pod-POM \
         perl-Template-Toolkit \
